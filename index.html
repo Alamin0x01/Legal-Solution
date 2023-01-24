@@ -53,8 +53,13 @@
                 <a class="nav-link" href="#">Contact Us</a>
               </li>
             </ul>
-
-            <button class="ms-2 btn btn-outline-success" type="submit">
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="ms-2 btn nav-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
               Free Consultation
             </button>
           </div>
@@ -330,7 +335,7 @@
           <h1 class="text-center">Our Team</h1>
           <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12 item">
-              <img src="images/p5.jpg" class="img-fluid" alt="team" />
+              <img src="images/p3.jpg" class="img-fluid" alt="team" />
               <div class="des">Rahim</div>
               <span class="text-muted">Manager</span>
             </div>
@@ -345,7 +350,7 @@
               <span class="text-muted">Front End Developer</span>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 item">
-              <img src="images/p4.jpg" class="img-fluid" alt="team" />
+              <img src="images/p2.png" class="img-fluid" alt="team" />
               <div class="des">Nerob</div>
               <span class="text-muted">Team Manger</span>
             </div>
@@ -492,6 +497,53 @@
           </div>
         </div>
       </section>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Free consultation today
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              "At our company, we offer a free consultation to all potential
+              clients. During this consultation, we will discuss your needs and
+              goals, and provide you with a detailed plan of how we can help you
+              achieve them. Whether you are looking for help with a specific
+              project or ongoing support, our team of experts will work with you
+              to find the best solution for your business. We understand that
+              every client is unique and we are committed to providing
+              personalized service to meet your specific needs. Contact us today
+              to schedule your free consultation and see how we can help you
+              succeed."
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">Got it</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <!-- ............................end.......................... -->
 

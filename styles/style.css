@@ -1,19 +1,27 @@
-.team{
-    margin: 4em 0;
-    position: relative;  
-   }
-   .team h1{
-    
-    margin: 2em; 
-   }
-   .team .item{
-    position: relative;
-   }
-   .team .des{
-    background: #F97300;
-    color: #fff;
-    text-align: center;
-    border-bottom-left-radius: 100%;
-    transition:.3s ;
-    
-   }
+/* <!-- Button trigger modal --> */
+.nav-btn{
+    background: #B68C5A;
+border-radius: 8px;
+}
+/* end  */
+
+
+/* our team */
+.team {
+  margin: 4em 0;
+  position: relative;
+}
+.team h1 {
+  margin: 2em;
+}
+.team .item {
+  position: relative;
+}
+.team .des {
+  background: #f97300;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 100%;
+  transition: 0.3s;
+}
+/* end */
