@@ -1,0 +1,19 @@
+.team{
+    margin: 4em 0;
+    position: relative;  
+   }
+   .team h1{
+    
+    margin: 2em; 
+   }
+   .team .item{
+    position: relative;
+   }
+   .team .des{
+    background: #F97300;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 100%;
+    transition:.3s ;
+    
+   }
